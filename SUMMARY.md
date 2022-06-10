@@ -5,16 +5,16 @@
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
-* [Windows](getting-started/windows.md)
-* [macOS](getting-started/macos.md)
-* [Linux](getting-started/linux.md)
+* [Windows](guides/creating-your-first-project.md)
+* [macOS](guides/creating-your-first-task.md)
+* [Linux](guides/advanced-permissions.md)
 
-## Fundamentals
+## Configuration
 
-* [Projects](fundamentals/projects.md)
-* [Members](fundamentals/members.md)
-* [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
+* [Projects](configuration/projects.md)
+* [Members](configuration/members.md)
+* [Task Lists](configuration/task-lists.md)
+* [Tasks](configuration/tasks.md)
 
 ## Use Cases
 

@@ -32,16 +32,16 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="getting-started/windows.md" %}
-[windows.md](getting-started/windows.md)
+{% content-ref url="guides/creating-your-first-project.md" %}
+[creating-your-first-project.md](guides/creating-your-first-project.md)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started/macos.md" %}
-[macos.md](getting-started/macos.md)
+{% content-ref url="guides/creating-your-first-task.md" %}
+[creating-your-first-task.md](guides/creating-your-first-task.md)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started/linux.md" %}
-[linux.md](getting-started/linux.md)
+{% content-ref url="guides/advanced-permissions.md" %}
+[advanced-permissions.md](guides/advanced-permissions.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -52,20 +52,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="fundamentals/projects.md" %}
-[projects.md](fundamentals/projects.md)
+{% content-ref url="configuration/projects.md" %}
+[projects.md](configuration/projects.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/members.md" %}
-[members.md](fundamentals/members.md)
+{% content-ref url="configuration/members.md" %}
+[members.md](configuration/members.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
+{% content-ref url="configuration/task-lists.md" %}
+[task-lists.md](configuration/task-lists.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
+{% content-ref url="configuration/tasks.md" %}
+[tasks.md](configuration/tasks.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
