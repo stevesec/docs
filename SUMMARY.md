@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Warhorse?](README.md)
+* [Warhorse](README.md)
 
 ## Getting Started
 
@@ -17,10 +17,10 @@
 
 ## Configuration
 
-* [General](configuration/general.md)
-* [DNS](configuration/dns.md)
-* [VM](configuration/vm.md)
-* [Terraform](configuration/terraform.md)
+* [General](fundamentals/projects.md)
+* [DNS](fundamentals/members.md)
+* [VM](fundamentals/task-lists.md)
+* [Terraform](fundamentals/tasks.md)
 * [Users](configuration/users.md)
 
 ## Modules
