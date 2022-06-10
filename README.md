@@ -32,16 +32,16 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="guides/creating-your-first-project.md" %}
-[creating-your-first-project.md](guides/creating-your-first-project.md)
+{% content-ref url="getting-started/windows.md" %}
+[windows.md](getting-started/windows.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
+{% content-ref url="getting-started/macos.md" %}
+[macos.md](getting-started/macos.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
+{% content-ref url="getting-started/linux.md" %}
+[linux.md](getting-started/linux.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

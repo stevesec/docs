@@ -2,11 +2,12 @@
 
 * [What is Warhorse?](README.md)
 
-## Guides
+## Getting Started
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
-* [Advanced permissions](guides/advanced-permissions.md)
+* [Requirements](getting-started/requirements.md)
+* [Windows](getting-started/windows.md)
+* [macOS](getting-started/macos.md)
+* [Linux](getting-started/linux.md)
 
 ## Fundamentals
 
