@@ -9,12 +9,28 @@
 * [macOS](guides/creating-your-first-task.md)
 * [Linux](guides/advanced-permissions.md)
 
+## Deployments
+
+* [Local](deployments/local.md)
+* [Docker](deployments/docker.md)
+* [CI/CD](deployments/ci-cd.md)
+
 ## Configuration
 
-* [Projects](configuration/projects.md)
-* [Members](configuration/members.md)
-* [Task Lists](configuration/task-lists.md)
-* [Tasks](configuration/tasks.md)
+* [General](configuration/general.md)
+* [DNS](configuration/dns.md)
+* [VM](configuration/vm.md)
+* [Terraform](configuration/terraform.md)
+* [Users](configuration/users.md)
+
+## Modules
+
+* [HTTP Proxy](modules/http-proxy.md)
+* [Command & Control](modules/command-and-control.md)
+* [Phishing](modules/phishing.md)
+* [VPN](modules/vpn.md)
+* [File Shareing](modules/file-shareing.md)
+* [Backup](modules/backup.md)
 
 ## Use Cases
 

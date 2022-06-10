@@ -52,20 +52,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="configuration/projects.md" %}
-[projects.md](configuration/projects.md)
+{% content-ref url="configuration/general.md" %}
+[general.md](configuration/general.md)
 {% endcontent-ref %}
 
-{% content-ref url="configuration/members.md" %}
-[members.md](configuration/members.md)
+{% content-ref url="configuration/dns.md" %}
+[dns.md](configuration/dns.md)
 {% endcontent-ref %}
 
-{% content-ref url="configuration/task-lists.md" %}
-[task-lists.md](configuration/task-lists.md)
+{% content-ref url="configuration/vm.md" %}
+[vm.md](configuration/vm.md)
 {% endcontent-ref %}
 
-{% content-ref url="configuration/tasks.md" %}
-[tasks.md](configuration/tasks.md)
+{% content-ref url="configuration/terraform.md" %}
+[terraform.md](configuration/terraform.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
