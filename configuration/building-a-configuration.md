@@ -2,24 +2,32 @@
 
 The configuration for Warhorse consists of a simple Yaml file. The values in this file are used by Ansible to build Terraform and to configure our Operating system and applications.
 
-<details>
+### General
 
-<summary>General</summary>
+{% content-ref url="../fundamentals/projects.md" %}
+[projects.md](../fundamentals/projects.md)
+{% endcontent-ref %}
 
-### **op\_number: '123456'**
+### DNS
 
-This is a unique number used to identify the engagement.
+{% content-ref url="../fundamentals/members.md" %}
+[members.md](../fundamentals/members.md)
+{% endcontent-ref %}
 
-### **user\_tag: 'operator'**
+### VM
 
-name to identify the user that deployed the engagement**.**
+{% content-ref url="../fundamentals/task-lists.md" %}
+[task-lists.md](../fundamentals/task-lists.md)
+{% endcontent-ref %}
 
-### **ttl: '2022-12-30'**
+### Terraform
 
-Time to Live for the engagement year month day 2022-01-01
+{% content-ref url="../fundamentals/tasks.md" %}
+[tasks.md](../fundamentals/tasks.md)
+{% endcontent-ref %}
 
-### **ntp\_timezone:** 'America/New\_York'
+### Users
 
-The time zone you would like to use for all VM's and log data
-
-</details>
+{% content-ref url="users.md" %}
+[users.md](users.md)
+{% endcontent-ref %}
