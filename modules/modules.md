@@ -1,5 +1,5 @@
 # Modules
 
-{% content-ref url="http-proxy/" %}
-[http-proxy](http-proxy/)
+{% content-ref url="http-proxy.md" %}
+[http-proxy.md](http-proxy.md)
 {% endcontent-ref %}

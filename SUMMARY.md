@@ -17,6 +17,7 @@
 
 ## Configuration
 
+* [Building a Configuration](configuration/building-a-configuration.md)
 * [General](fundamentals/projects.md)
 * [DNS](fundamentals/members.md)
 * [VM](fundamentals/task-lists.md)
@@ -26,7 +27,7 @@
 ## Modules
 
 * [Modules](modules/modules.md)
-* [HTTP Proxy](modules/http-proxy/README.md)
+* [HTTP Proxy](modules/http-proxy.md)
   * [Traefik](modules/http-proxy/traefik.md)
 * [Command & Control](modules/command-and-control.md)
   * [Cobaltstrike](modules/command-and-control/cobaltstrike.md)
@@ -43,7 +44,7 @@
 
 ## Examples
 
-* [Command & Control (C2)](examples/command-and-control-c2.md)
+* [Command & Control (C2)](use-cases/for-designers/README.md)
 
 ## Extras
 
