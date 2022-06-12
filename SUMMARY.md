@@ -25,7 +25,9 @@
 
 ## Modules
 
-* [HTTP Proxy](modules/http-proxy.md)
+* [Modules](modules/modules.md)
+* [HTTP Proxy](modules/http-proxy/README.md)
+  * [Traefik](modules/http-proxy/traefik.md)
 * [Command & Control](modules/command-and-control.md)
   * [Cobaltstrike](modules/command-and-control/cobaltstrike.md)
   * [Nighthawk](modules/command-and-control/nighthawk.md)
@@ -41,12 +43,7 @@
 
 ## Examples
 
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
-* [For Engineers](use-cases/for-engineers/README.md)
-  * [GitHub Integration](use-cases/for-engineers/github-integration.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
+* [Command & Control (C2)](examples/command-and-control-c2.md)
 
 ## Extras
 
