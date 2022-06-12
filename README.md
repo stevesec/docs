@@ -18,16 +18,16 @@ Warhorse is a fully-featured Ansible playbook to deploy infrastructure in the cl
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="guides/creating-your-first-project.md" %}
+[creating-your-first-project.md](guides/creating-your-first-project.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="guides/creating-your-first-task.md" %}
+[creating-your-first-task.md](guides/creating-your-first-task.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="guides/advanced-permissions.md" %}
+[advanced-permissions.md](guides/advanced-permissions.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

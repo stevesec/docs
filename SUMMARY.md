@@ -5,6 +5,8 @@
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
+* [Configuration](getting-started/configuration.md)
+* [Deployment](getting-started/deployment.md)
 
 ## Deployments
 
