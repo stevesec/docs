@@ -5,9 +5,6 @@
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
-* [Windows](guides/creating-your-first-project.md)
-* [macOS](guides/creating-your-first-task.md)
-* [Linux](guides/advanced-permissions.md)
 
 ## Deployments
 
