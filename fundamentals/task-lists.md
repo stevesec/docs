@@ -1,24 +1,34 @@
 # VM
 
+{% hint style="danger" %}
 ### - **name: - 'teamserver'**
 
 This is the name you would like to use for the Virtual Machine
+{% endhint %}
 
+{% hint style="danger" %}
 ### **provider: - 'digitalocean'**
 
 The cloud provider you want to use for Virtual Machine.
+{% endhint %}
 
-### **resource\_name: - **_**optional**_
+{% hint style="info" %}
+### **resource\_name: ''**
 
 The name you would like to use for the VM resource
+{% endhint %}
 
+{% hint style="info" %}
 ### **hostname: - **_**optional**_
 
 The hostname you would like to use for the VM
+{% endhint %}
 
+{% hint style="info" %}
 ### **dns\_hostname: - **_**optional**_
 
 The DNS hostname you would like to use for the VM
+{% endhint %}
 
 ### **size: - **_**optional**_
 
