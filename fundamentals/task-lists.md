@@ -1,5 +1,7 @@
 # VM
 
+{% tabs %}
+{% tab title="Required" %}
 {% hint style="danger" %}
 ### - **name: - 'teamserver'**
 
@@ -11,7 +13,9 @@ This is the name you would like to use for the Virtual Machine
 
 The cloud provider you want to use for Virtual Machine.
 {% endhint %}
+{% endtab %}
 
+{% tab title="Optional" %}
 {% hint style="info" %}
 ### **resource\_name: '**operator-0000-01-teamserver'
 
@@ -53,6 +57,8 @@ The cloud provider operating system to use. Currently, Warhorse only supports Ub
 
 The HTTP proxy you would like to use with your modules. Currently, only traefik and Nginx are supported
 {% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ### **Example**
 
