@@ -1,12 +1,24 @@
 # Terraform
 
-**state\_bucket\_enabled: REQUIRED**
+{% tabs %}
+{% tab title="First Tab" %}
+{% hint style="info" %}
+### **state\_bucket\_enabled: 'true'**
 
 This will enable the terraform state bucket in an S3 bucket.
+{% endhint %}
 
-**state\_bucket\_name: REQUIRED**
+{% hint style="info" %}
+### **state\_bucket\_name: 'mybucket'**
 
 The name of the S3 bucket
+{% endhint %}
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
 
 **state\_bucket\_key: REQUIRED**
 

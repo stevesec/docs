@@ -1,36 +1,5 @@
 # DNS
 
-{% tabs %}
-{% tab title="Required" %}
-{% hint style="danger" %}
-### **provider: 'digitalocean'**
-
-The cloud provider you want to use for DNS.
+{% hint style="info" %}
+**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them.
 {% endhint %}
-
-{% hint style="danger" %}
-### **op\_tld: 'operation.com'**
-
-The top-level domain name for DNS
-{% endhint %}
-
-{% hint style="danger" %}
-### **op\_domain\_name: 'op.operation.com'**
-
-The operation subdomain you want to use for DNS
-{% endhint %}
-{% endtab %}
-
-{% tab title="Optional" %}
-
-{% endtab %}
-{% endtabs %}
-
-### **Example**
-
-```
-  dns:
-    provider: "digitalocean"
-    op_tld: 'operation.com'
-    op_domain_name: '123456.operation.com'
-```

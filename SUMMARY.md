@@ -18,6 +18,7 @@
 
 * [Building a Configuration](configuration/building-a-configuration.md)
 * [General](fundamentals/projects.md)
+* [Notification](configuration/notification.md)
 * [DNS](fundamentals/members.md)
 * [VM](fundamentals/task-lists.md)
 * [Terraform](fundamentals/tasks.md)
