@@ -1,42 +1,42 @@
 # VM
 
-**- name: - Virtual Machine Name **_**REQUIRED**_
+### - **name: - 'teamserver'**
 
 This is the name you would like to use for the Virtual Machine
 
-**provider: - Cloud provider to use **_**REQUIRED**_
+### **provider: - 'digitalocean'**
 
 The cloud provider you want to use for Virtual Machine.
 
-**resource\_name: - **_**optional**_
+### **resource\_name: - **_**optional**_
 
 The name you would like to use for the VM resource
 
-**hostname: - **_**optional**_
+### **hostname: - **_**optional**_
 
 The hostname you would like to use for the VM
 
-**dns\_hostname: - **_**optional**_
+### **dns\_hostname: - **_**optional**_
 
 The DNS hostname you would like to use for the VM
 
-**size: - **_**optional**_
+### **size: - **_**optional**_
 
 The size of the instance for the VM. This will change depending on the cloud you use.
 
-**region: - **_**optional**_
+### **region: - **_**optional**_
 
 The region you would like to use for the VM. This will change depending on the cloud you use.
 
-**img: - **_**optional**_
+### **img: - **_**optional**_
 
 The cloud provider operating system to use. Currently, Warhorse only supports Ubuntu 20.04. This will change in the future. This will change depending on the cloud you use.
 
-**http\_proxy: - **_**optional**_
+### **http\_proxy: - **_**optional**_
 
 The HTTP proxy you would like to use with your modules. Currently, only traefik and Nginx are supported
 
-**Example**
+### **Example**
 
 ```
   vm:
