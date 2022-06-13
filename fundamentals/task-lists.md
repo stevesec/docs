@@ -13,38 +13,46 @@ The cloud provider you want to use for Virtual Machine.
 {% endhint %}
 
 {% hint style="info" %}
-### **resource\_name: ''**
+### **resource\_name: '**operator-0000-01-teamserver'
 
 The name you would like to use for the VM resource
 {% endhint %}
 
 {% hint style="info" %}
-### **hostname: - **_**optional**_
+### **hostname: '**123456-teamserver'
 
 The hostname you would like to use for the VM
 {% endhint %}
 
 {% hint style="info" %}
-### **dns\_hostname: - **_**optional**_
+### **dns\_hostname: '**teamserver'
 
 The DNS hostname you would like to use for the VM
 {% endhint %}
 
-### **size: - **_**optional**_
+{% hint style="info" %}
+### **size: '**s-2vcpu-4gb'
 
 The size of the instance for the VM. This will change depending on the cloud you use.
+{% endhint %}
 
-### **region: - **_**optional**_
+{% hint style="info" %}
+### **region: '**nyc1'
 
 The region you would like to use for the VM. This will change depending on the cloud you use.
+{% endhint %}
 
-### **img: - **_**optional**_
+{% hint style="info" %}
+### **img: '**ubuntu-20-04-x64'
 
-The cloud provider operating system to use. Currently, Warhorse only supports Ubuntu 20.04. This will change in the future. This will change depending on the cloud you use.
+The cloud provider operating system to use. Currently, Warhorse only supports Ubuntu 20.04. This may change in the future. The name will change depending on the cloud you use.
+{% endhint %}
 
-### **http\_proxy: - **_**optional**_
+{% hint style="info" %}
+### **http\_proxy: '**traefik'
 
 The HTTP proxy you would like to use with your modules. Currently, only traefik and Nginx are supported
+{% endhint %}
 
 ### **Example**
 
