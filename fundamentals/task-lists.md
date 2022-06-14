@@ -1,92 +1,42 @@
 # VM
 
-{% tabs %}
-{% tab title="Required" %}
-{% hint style="danger" %}
-### - **name: - 'teamserver'**
+**- name: - Virtual Machine Name **_**REQUIRED**_
 
 This is the name you would like to use for the Virtual Machine
-{% endhint %}
 
-{% hint style="danger" %}
-### **provider: - 'digitalocean'**
+**provider: - Cloud provider to use **_**REQUIRED**_
 
 The cloud provider you want to use for Virtual Machine.
-{% endhint %}
-{% endtab %}
 
-{% tab title="Optional" %}
-{% hint style="info" %}
-### **resource\_name: '**operator-0000-01-teamserver'
+**resource\_name: - **_**optional**_
 
 The name you would like to use for the VM resource
-{% endhint %}
 
-{% hint style="info" %}
-### **hostname: '**123456-teamserver'
+**hostname: - **_**optional**_
 
 The hostname you would like to use for the VM
-{% endhint %}
 
-{% hint style="info" %}
-### **dns\_hostname: '**teamserver'
+**dns\_hostname: - **_**optional**_
 
 The DNS hostname you would like to use for the VM
-{% endhint %}
 
-{% hint style="info" %}
-### **size: '**s-2vcpu-4gb'
+**size: - **_**optional**_
 
 The size of the instance for the VM. This will change depending on the cloud you use.
-{% endhint %}
 
-{% hint style="info" %}
-### **region: '**nyc1'
+**region: - **_**optional**_
 
 The region you would like to use for the VM. This will change depending on the cloud you use.
-{% endhint %}
 
-{% hint style="info" %}
-### **img: '**ubuntu-20-04-x64'
+**img: - **_**optional**_
 
-The cloud provider operating system to use. Currently, Warhorse only supports Ubuntu 20.04. This may change in the future. The name will change depending on the cloud you use.
-{% endhint %}
+The cloud provider operating system to use. Currently, Warhorse only supports Ubuntu 20.04. This will change in the future. This will change depending on the cloud you use.
 
-{% hint style="info" %}
-### **http\_proxy: '**traefik'
+**http\_proxy: - **_**optional**_
 
 The HTTP proxy you would like to use with your modules. Currently, only traefik and Nginx are supported
-{% endhint %}
-{% endtab %}
 
-{% tab title="Modules" %}
-{% content-ref url="../modules/http-proxy.md" %}
-[http-proxy.md](../modules/http-proxy.md)
-{% endcontent-ref %}
-
-{% content-ref url="../modules/command-and-control.md" %}
-[command-and-control.md](../modules/command-and-control.md)
-{% endcontent-ref %}
-
-{% content-ref url="../modules/phishing.md" %}
-[phishing.md](../modules/phishing.md)
-{% endcontent-ref %}
-
-{% content-ref url="../modules/vpn.md" %}
-[vpn.md](../modules/vpn.md)
-{% endcontent-ref %}
-
-{% content-ref url="../modules/file-shareing.md" %}
-[file-shareing.md](../modules/file-shareing.md)
-{% endcontent-ref %}
-
-{% content-ref url="../modules/backup.md" %}
-[backup.md](../modules/backup.md)
-{% endcontent-ref %}
-{% endtab %}
-{% endtabs %}
-
-### **Example**
+**Example**
 
 ```
   vm:

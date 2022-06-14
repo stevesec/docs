@@ -1,7 +1,7 @@
 # Terraform
 
 {% tabs %}
-{% tab title="Required" %}
+{% tab title="First Tab" %}
 {% hint style="info" %}
 ### **state\_bucket\_enabled: 'true'**
 
@@ -15,7 +15,7 @@ The name of the S3 bucket
 {% endhint %}
 {% endtab %}
 
-{% tab title="Optional" %}
+{% tab title="Second Tab" %}
 
 {% endtab %}
 {% endtabs %}
