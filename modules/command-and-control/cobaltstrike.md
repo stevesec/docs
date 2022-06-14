@@ -6,7 +6,7 @@ cobaltstrike:
         dir: "/opt/docker/cobaltstrike"
         dns_over_https: true
         auth_header_name: "cdnauth"
-        auth_header_value: "vaule"
+        auth_header_value: "value"
         password: "password"
         key: "0000-00-0000-0000"
         socks_ports:
