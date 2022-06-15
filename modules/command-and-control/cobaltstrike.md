@@ -1,5 +1,21 @@
 # Cobaltstrike
 
+{% tabs %}
+{% tab title="Required" %}
+{% hint style="warning" %}
+### enabled: **'true'**
+
+This will enable the Cobaltstrike module
+{% endhint %}
+
+
+{% endtab %}
+
+{% tab title="Optional" %}
+
+{% endtab %}
+{% endtabs %}
+
 ```
 cobaltstrike:
         enabled: true
