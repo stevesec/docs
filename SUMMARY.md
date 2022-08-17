@@ -8,12 +8,6 @@
 * [Configuration](getting-started/configuration.md)
 * [Deployment](getting-started/deployment.md)
 
-## Deployments
-
-* [Local](deployments/local.md)
-* [Docker](deployments/docker.md)
-* [CI/CD](deployments/ci-cd.md)
-
 ## Configuration
 
 * [Building a Configuration](configuration/building-a-configuration.md)
@@ -23,6 +17,12 @@
 * [VM](fundamentals/task-lists.md)
 * [Terraform](fundamentals/tasks.md)
 * [Users](configuration/users.md)
+
+## Deployments
+
+* [Local](deployments/local.md)
+* [Docker](deployments/docker.md)
+* [CI/CD](deployments/ci-cd.md)
 
 ## Modules
 
